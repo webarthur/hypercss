@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HyperCSS Playground</title>
+    <script src="hypercss.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <textarea id="css" name="name" rows="8" cols="80" onkeyup="hypercss(this.value)">body {
+  text: 2px bold
+        upper ;
+  layout: absolute red top! fluid padding   (2, 3px,   5em  ) ;
+  @clearfix
+}</textarea>
+    <pre id="response">
+
+    </pre>
+    <script>
+      setTimeout(function () {
+        hypercss(css.value)
+      }, 1)
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "hypercss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arthur Araújo <webarthur@gmail.com> (http://araujo.cc)",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
